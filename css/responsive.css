@@ -6,6 +6,11 @@
 /* Media Query */
 @media only screen and (max-width:768px) {
 
+    /* Body */
+    body::before {
+        width: 100%;
+    }
+    
     /* Short head */
     .head {
         width: 20rem;
@@ -55,6 +60,11 @@
 /* Media Query */
 @media only screen and (max-width:450px) {
 
+    /* Body */
+    body::before {
+        width: 100%;
+    }
+    
     /* Short head */
     .head {
         width: 15rem;
@@ -114,6 +124,11 @@
 /* Media Query */
 @media only screen and (max-width:390px) {
 
+    /* Body */
+    body::before {
+        width: 100%;
+    }
+    
     /* Home Section */
     #home {
         padding-bottom: 60px;
@@ -182,6 +197,11 @@
 
 /* Media Query */
 @media only screen and (max-width:240px) {
+    
+    /* Body */
+    body::before {
+        width: 100%;
+    }
     
     /* Short head */
     .head {
