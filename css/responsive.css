@@ -8,8 +8,11 @@
 
     /* Body */
     body::before {
-        position: fixed;
-        width: 100%;
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          height: 100%;
+          width: 100%;
     }
     
     /* Short head */
@@ -63,8 +66,11 @@
 
     /* Body */
     body::before {
-        position: fixed;
-        width: 100%;
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          height: 100%;
+          width: 100%;
     }
     
     /* Short head */
@@ -128,8 +134,11 @@
 
     /* Body */
     body::before {
-        position: fixed;
-        width: 100%;
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          height: 100%;
+          width: 100%;
     }
     
     /* Home Section */
@@ -203,8 +212,11 @@
     
     /* Body */
     body::before {
-        position: fixed;
-        width: 100%;
+          position: fixed;
+          top: 0px;
+          left: 0px;
+          height: 100%;
+          width: 100%;
     }
     
     /* Short head */
