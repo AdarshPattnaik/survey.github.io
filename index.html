@@ -1,0 +1,157 @@
+
+<!-- Initiation of the HTML Source Code -->
+
+<!-- HTML Declaration -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HTML head -->
+
+<head>
+
+    <!-- Meta-tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the page -->
+    <title>Food Delivery Feedback | Survey Page</title>
+
+    <!-- Designing Stylesheet -->
+    <link rel="stylesheet" href="css/design.css">
+
+    <!-- Stylesheet for Responsiveness -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- HTML Body -->
+
+<body>
+
+    <!-- Home Section -->
+    <section id="home">
+
+        <!-- Short head -->
+        <div class="head">
+
+            <!-- Title head of the page -->
+            <h1 id="title">Food Delivery Survey Form</h1>
+
+            <!-- Description -->
+            <h3 id="description">Your feedback would help us to improve our services</h3>
+
+        </div>
+
+        <!-- Form -->
+        <div class="container">
+
+            <form action="backend.php" id="survey-form">
+
+                <div class="form-group" id="name">
+                    <label id="name-label" for="name" required>Name:</label>
+
+                    <input type="text" name="myName" placeholder="Enter your name">
+                </div>
+
+                <div class="form-group" id="email">
+                    <label id="email-label" for="email" required>E-mail:</label>
+
+                    <input type="email" name="myEmail" placeholder="Enter your email">
+                </div>
+
+                <div class="form-group" id="number">
+                    <label id="number-label" for="number">Age(optional):</label>
+
+                    <input type="number" min="10" max="99" name="myNumber" placeholder="Age">
+                </div>
+
+                <div class="form-group">
+                    <p>
+                        How often you order food online?
+                    </p>
+
+                    <label>
+                        <input type="checkbox" name="myOrder"> &nbsp; Daily
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="myOrder"> &nbsp; Weekly
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="myOrder"> &nbsp; Monthly
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <p>
+                        Which meal you typically order food online?
+                    </p>
+
+                    <label>
+                        <input type="radio" name="myMeal"> &nbsp; Breakfast
+                    </label>
+
+                    <label>
+                        <input type="radio" name="myMeal"> &nbsp; Lunch
+                    </label>
+
+                    <label>
+                        <input type="radio" name="myMeal"> &nbsp; Snacks
+                    </label>
+
+                    <label>
+                        <input type="radio" name="myMeal"> &nbsp; Dinner
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <p class="general">
+                        In general, how do you prefer to order food?
+                    </p>
+
+                    <select name="myPreference" id="dropdown">
+                        <option disabled selected value>Select an option</option>
+                        <option value="Mobile App">Mobile App</option>
+                        <option value="Web Browser">Web Browser</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <p class="general">
+                        Feel free to share your views over here:
+                    </p>
+                    <textarea name="myViews" id="textarea" cols="30" rows="10"
+                        placeholder="Enter your comments here..."></textarea>
+                </div>
+
+                <!-- Button -->
+                <div class="form-group">
+                    <button type="submit" id="submit"> Submit </button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer id="foot">
+        <div id="down">
+            &copy; Food Delivery Survey Form &bullet; All Rights Reserved | Design by Adarsh
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+<!-- Termination of the HTML Source Code -->

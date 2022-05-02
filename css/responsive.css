@@ -1,0 +1,252 @@
+
+/* This CSS stylesheet is made for the responsiveness of the website */
+
+/* Initiation of the CSS Source Code */
+
+/* Media Query */
+@media only screen and (max-width:768px) {
+
+    /* Short head */
+    .head {
+        width: 20rem;
+    }
+
+    #title {
+        font-size: 2rem;
+    }
+
+    #description {
+        font-size: 0.8rem;
+    }
+
+    /* Form */
+    .container {
+        width: 23rem;
+    }
+
+    #survey-form::before {
+        width: 23rem;
+    }
+
+    /* Input Areas */
+    #name input,
+    #email input,
+    #number input,
+    #dropdown {
+        width: 19rem;
+    }
+
+    textarea {
+        width: 19rem;
+    }
+
+    /* Footer */
+    #foot {
+        font-size: 0.8rem;
+    }
+
+    /* Buuton */
+    #submit {
+        width: 19rem;
+    }
+
+}
+
+/* Media Query */
+@media only screen and (max-width:450px) {
+
+    /* Short head */
+    .head {
+        width: 15rem;
+    }
+
+    #title {
+        font-size: 1.3rem;
+    }
+
+    #description {
+        font-size: 0.6rem;
+    }
+
+    /* Form */
+    .container {
+        font-size: 1rem;
+        width: 18rem;
+    }
+
+    #survey-form {
+        align-items: flex-start;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    #survey-form::before {
+        width: 18rem;
+    }
+
+    /* Input Areas */
+    #name input,
+    #email input,
+    #number input,
+    #dropdown {
+        width: 235px;
+    }
+
+    textarea {
+        width: 235px;
+        height: 120px;
+    }
+
+    /* Footer */
+    #foot {
+        font-size: 0.7rem;
+    }
+
+    /* Button */
+    #submit {
+        width: 235px;
+    }
+
+}
+
+/* Media Query */
+@media only screen and (max-width:390px) {
+
+    /* Home Section */
+    #home {
+        padding-bottom: 60px;
+    }
+
+    /* Short head */
+    .head {
+        width: 15rem;
+        margin: 1px;
+        padding: 10px 5px;
+    }
+
+    #title {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    #description {
+        font-size: 0.5rem;
+        font-weight: 300;
+    }
+
+    /* Form */
+    .container {
+        width: 14rem;
+    }
+
+    #survey-form {
+        font-size: 0.9rem;
+        align-items: flex-start;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    #survey-form::before {
+        width: 14rem;
+    }
+
+    /* Input Areas */
+    #name input,
+    #email input,
+    #number input,
+    #dropdown {
+        width: 170px;
+    }
+
+    textarea {
+        width: 170px;
+        height: 100px;
+    }
+
+    /* Footer */
+    #foot {
+        height: 40px;
+        font-size: 0.5rem;
+    }
+
+    /* Button */
+    #submit {
+        width: 170px;
+    }
+
+}
+
+/* Media Query */
+@media only screen and (max-width:240px) {
+    
+    /* Short head */
+    .head {
+        width: 12rem;
+        margin: 1px;
+        padding: 10px 5px;
+    }
+
+    #title {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    #description {
+        font-size: 0.5rem;
+        font-weight: 200;
+    }
+
+    /* Form */
+    .container {
+        width: 10rem;
+    }
+
+    #survey-form {
+        font-size: 0.6rem;
+        align-items: flex-start;
+    }
+
+    p {
+        text-align: left;
+    }
+
+    #survey-form::before {
+        height: 864px;
+        width: 10rem;
+    }
+
+    /* Input Areas */
+    #name input,
+    #email input,
+    #number input,
+    #dropdown {
+        font-size: 0.6rem;
+        height: 15px;
+        width: 105px;
+    }
+
+    textarea {
+        font-size: 0.6rem;
+        width: 105px;
+        height: 90px;
+    }
+
+    /* Footer */
+    #foot {
+        height: 40px;
+        font-size: 0.4rem;
+    }
+
+    /* Button */
+    #submit {
+        font-size: 0.7rem;
+        width: 105px;
+    }
+    
+}
+
+/* Termination of the CSS Source Code */
